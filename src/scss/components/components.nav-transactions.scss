@@ -1,0 +1,70 @@
+.nav__transactions {
+  .transactions__list {
+    list-style: none;
+    font-size: 0em;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    .list__item {
+      display: inline-block;
+      font-size: 1rem;
+      &:first-child {
+        margin-right: 20px;
+      }
+      a {
+        cursor: pointer;
+        font-size: 15px;
+        padding-bottom: 5px;
+        &.active {
+          color: $color-blue;
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+}
+
+.nav__home {
+  .home__list {
+    list-style: none;
+    font-size: 0em;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    .list__item {
+      display: inline-block;
+      font-size: 1rem;
+      &:first-child, &:nth-child(2) {
+        margin-right: 20px;
+      }
+      a {
+        cursor: pointer;
+        font-size: 15px;
+        padding-bottom: 5px;
+        &.active {
+          color: $color-blue;
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+}
+
+.tab--transactions {
+  position: relative;
+  #lastTransactions__content {
+    position: absolute;
+    width: 100%;
+  }
+  #billsDue__content {
+    position: absolute;
+    width: 100%;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#questionContainer {
+  position: absolute;
+  width: 100%;
+  top: 523px;
+}

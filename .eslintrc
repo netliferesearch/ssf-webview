@@ -1,0 +1,7 @@
+{
+  "extends": "netliferesearch",
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

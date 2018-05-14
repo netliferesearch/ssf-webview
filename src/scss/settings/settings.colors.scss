@@ -1,0 +1,14 @@
+/**** colors ****/
+
+$color-white: #fff;
+$color-black: #000;
+$color-transparent: transparent;
+$color-grey-light: #f7f7f7;
+
+$color-blue: #3155a5;
+$color-green: #83ad3d;
+
+.bg-grey {
+  background-color: $color-grey-light;
+  border-right: 1px solid #e6e6e6;
+}

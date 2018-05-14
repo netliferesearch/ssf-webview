@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'AtlasGrotesk-Reg';
+    src: url('fonts/AtlasGrotesk-Regular.eot');
+    src: url('fonts/AtlasGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-Regular.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-Regular.woff') format('woff'),
+        url('fonts/AtlasGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-RegItalic';
+    src: url('fonts/AtlasGrotesk-RegularItalic.eot');
+    src: url('fonts/AtlasGrotesk-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-RegularItalic.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-RegularItalic.woff') format('woff'),
+        url('fonts/AtlasGrotesk-RegularItalic.ttf') format('truetype'),
+        url('fonts/AtlasGrotesk-RegularItalic.svg#AtlasGrotesk-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-Med';
+    src: url('fonts/AtlasGrotesk-Medium.eot');
+    src: url('fonts/AtlasGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-Medium.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-Medium.woff') format('woff'),
+        url('fonts/AtlasGrotesk-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-MedItalic';
+    src: url('fonts/AtlasGrotesk-MediumItalic.eot');
+    src: url('fonts/AtlasGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-MediumItalic.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-MediumItalic.woff') format('woff'),
+        url('fonts/AtlasGrotesk-MediumItalic.ttf') format('truetype'),
+        url('fonts/AtlasGrotesk-MediumItalic.svg#AtlasGrotesk-MediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-Thin';
+    src: url('fonts/AtlasGrotesk-Thin.eot');
+    src: url('fonts/AtlasGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-Thin.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-Thin.woff') format('woff'),
+        url('fonts/AtlasGrotesk-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-Bold';
+    src: url('fonts/AtlasGrotesk-Bold.eot');
+    src: url('fonts/AtlasGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-Bold.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-Bold.woff') format('woff'),
+        url('fonts/AtlasGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtlasGrotesk-Light';
+    src: url('fonts/AtlasGrotesk-Light.eot');
+    src: url('fonts/AtlasGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AtlasGrotesk-Light.woff2') format('woff2'),
+        url('fonts/AtlasGrotesk-Light.woff') format('woff'),
+        url('fonts/AtlasGrotesk-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$font-atlas: 'AtlasGrotesk-Reg', sans-serif;
+$font-atlas-italic: 'AtlasGrotesk-RegItalic', sans-serif;
+$font-atlas-med: 'AtlasGrotesk-Med', sans-serif;
+$font-atlas-med-italic: 'AtlasGrotesk-MedItalic', sans-serif;
+$font-atlas-thin: 'AtlasGrotesk-Thin', sans-serif;
+$font-atlas-bold: 'AtlasGrotesk-Bold', sans-serif;
+$font-atlas-light: 'AtlasGrotesk-Light', sans-serif;

@@ -1,0 +1,111 @@
+.box {
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0 0 10px #e0e0e0;
+  border-radius: 6px;
+  padding: 20px 20px 20px 40px;
+  position: relative;
+  overflow: hidden;
+  outline: 0!important;
+  p {
+    font-size: 15px;
+  }
+  &__container + &__container {
+    margin-top: 30px;
+  }
+  &:last-child {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 4px;
+    border-radius: 10px;
+    top: 50%;
+    left: 0%;
+    transform: translate(20px, -50%);
+  }
+  &--sales {
+    padding: 20px;
+    background-image: url('/images/bg-sales.png');
+    background-repeat: no-repeat;
+    background-position: 140% 0px;
+    h4 {
+      display: block;
+      font-size: 15px;
+      font-family: $font-atlas-med;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 15px;
+      max-width: 300px;
+      display: block;
+      a {
+        margin-top: 15px;
+        display: block;
+        color: $color-blue;
+        text-decoration: underline;
+      }
+    }
+  }
+  &--slides {
+    padding: 30px;
+    margin-bottom: 20px;
+    .slide {
+      margin-right: 30px;
+      cursor: -webkit-grab;
+    }
+  }
+  &--blue:before {
+    background: $color-blue;
+  }
+  &--green:before {
+    background: $color-green;
+  }
+  &__left {
+    float: left;
+    h4 {
+      font-size: 15px;
+    }
+    span {
+      font-size: 11px;
+      opacity: .5;
+      letter-spacing: 1px;
+      padding-top: 5px;
+      font-family: $font-atlas-med;
+    }
+  }
+  &__right {
+    float: right;
+    .box__sum {
+      font-family: $font-atlas-med;
+      font-size: 15px;
+    }
+  }
+  &__title {
+    font-family: $font-atlas-med;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    &--big {
+      font-size: 18px;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+  }
+  &__smalltitle {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: -10px;
+  }
+}
+.box + .box {
+  margin-top: 10px;
+}
+.box__title + .box {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

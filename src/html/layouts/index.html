@@ -1,0 +1,210 @@
+{{#extend "_layout"}}
+{{#content "main"}}
+<main>
+  <section id="section1" class="main-section u-1/2">
+    <div>
+      <nav class="nav__home">
+        <ul class="home__list">
+          <li class="list__item">
+            <a href="#" class="active" id="">Mine konti</a>
+          </li>
+          <li class="list__item">
+            <a class="" id="" href="Mine forfall">Mine lån</a>
+          </li>
+          <li class="list__item">
+            <a class="" id="" href="Mine forfall">Disponerar</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+
+      <div class="box__container">
+        <h3 class="box__title">Brukerkontoer</h3>
+        <div class="box box--blue">
+          <div class="box__left">
+            <h4>Kontonavn</h4>
+            <span>1202.45.09282</span>
+          </div>
+          <div class="box__right">
+            <span class="box__sum">37 625,50 kr</span>
+            <span class="box__header"></span>
+          </div>
+        </div>
+        <div class="box box--blue">
+          <div class="box__left">
+            <h4>Kontonavn</h4>
+            <span>1202.45.09282</span>
+          </div>
+          <div class="box__right">
+            <span class="box__sum">37 625,50 kr</span>
+            <span class="box__header"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box__container">
+        <h3 class="box__title">Sparekontoer</h3>
+        <div class="box box--green">
+          <div class="box__left">
+            <h4>Kontonavn</h4>
+            <span>1202.45.09282</span>
+          </div>
+          <div class="box__right">
+            <span class="box__sum">37 625,50 kr</span>
+            <span class="box__header"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box__container">
+        <h2 class="box__title box__title--big">Mine kort</h2>
+        <!-- main-carousel -->
+        <div class="box box--slides main-carousel">
+          <div class="slide carousel-cell">
+            <img src="images/mastercard3.png" alt="mastercard" />
+          </div>
+          <div class="slide carousel-cell">
+            <img src="images/debit.png" alt="mastercard" />
+          </div>
+          <div class="slide carousel-cell">
+            <img src="images/mastercard2.png" alt="mastercard" />
+          </div>
+          <div class="slide carousel-cell">
+            <img src="images/mastercard.png" alt="mastercard" />
+          </div>
+        </div>
+
+        <div class="box box--sales">
+          <div class="box__left">
+            <h4>Salgstittel</h4>
+            <p>Salgstekst over to til tre linker, som frister til salg
+              <a href="#">Link</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section2" class="main-section u-1/3">
+    <div class="tab tab--transactions" id="tabTransactions">
+      <nav class="nav__transactions">
+        <ul class="transactions__list">
+          <li class="list__item">
+            <a href="#" class="active" id="lastTransactions">Siste transaksjoner</a>
+          </li>
+          <li class="list__item">
+            <a class="" id="billsDue" href="Mine forfall">Mine forfall</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="lastTransactions__content">
+        <div class="box__container">
+          <h3 class="box__title">Primærkonto</h3>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Kolonial</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-1 960.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Kaffebua</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-9 659.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>YME Universe</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-450.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>SATS Elixia</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-599.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Narvesen</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-99.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+        </div>
+        <h3 class="box__smalltitle">Mine transaksjoner ></h3>
+      </div>
+
+      <div id="billsDue__content">
+        <div class="box__container">
+          <h3 class="box__title">Alle forfall</h3>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Forfall 1</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-1 960.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Forfall 2</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-9 659.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+          <div class="box box--image">
+            <div class="box__left">
+              <h4>Forfall 3</h4>
+              <span class="box__date">14.03.2018</span>
+            </div>
+            <div class="box__right">
+              <span class="box__sum box__sum--italic">-450.00 kr</span>
+              <span class="box__header"></span>
+            </div>
+          </div>
+        </div>
+        <h3 class="box__smalltitle">Mine forfall ></h3>
+      </div>
+
+      <div class="box__container" id="questionContainer">
+        <div class="box">
+          <div class="box__left">
+            <p><a href="#">Ofte stilte spørsmål</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</main>
+{{/content}}
+{{/extend}}

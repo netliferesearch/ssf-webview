@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  left: 20%;
+  width: 80%;
+  background: #fbfbfb;
+}
+
+main {
+  padding: 0px 40px;
+  overflow: hidden;
+}
+
+.main-section {
+  float: left;
+  opacity: 0;
+}
+
+.main-section + .main-section {
+  padding-left: 40px;
+}
+
+#section1 {
+  max-width: 510px;
+  position: relative;
+}
+
+#section2 {
+  max-width: 300px;
+  position: relative;
+}

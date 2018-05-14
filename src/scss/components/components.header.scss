@@ -1,0 +1,19 @@
+.header {
+  overflow: hidden;
+  padding: 40px;
+  opacity: 0;
+  h1 {
+    font-size: 18px;
+    font-family: $font-atlas;
+    font-weight: normal;
+    float: left;
+    span {
+      opacity: .5;
+    }
+  }
+  &__alert {
+    float: right;
+    opacity: .5;
+    font-size: 15px;
+  }
+}
